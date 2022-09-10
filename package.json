@@ -1,10 +1,12 @@
 {
-  "name": "erela.js",
+  "name": "@cookiegmvn/erela",
   "version": "2.3.3",
   "description": "An easy-to-use Lavalink client for NodeJS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [  "dist" ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext .ts ./src",
@@ -21,15 +23,15 @@
     "discord.js",
     "eris"
   ],
-  "author": "MenuDocs (https://github.com/MenuDocs)",
-  "contributors": [
-    "Solaris9",
-    "Anish-Shobith",
-    "ayntee"
-  ],
+  "author": "CookieGMVN",
   "license": "Apache-2.0",
-  "repository": "MenuDocs/erela.js",
-  "bugs": "https://github.com/MenuDocs/erela.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CookieGMVN/erela.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CookieGMVN/erela.js"
+  },
   "devDependencies": {
     "@types/node": "^16.6.1",
     "@types/ws": "^7.4.7",
@@ -66,5 +68,8 @@
       "plugin:@typescript-eslint/recommended"
     ]
   },
-  "homepage": "https://github.com/MenuDocs/erela.js#readme"
+  "homepage": "https://github.com/CookieGMVN/erela.js",
+  "directories": {
+    "example": "examples"
+  }
 }
